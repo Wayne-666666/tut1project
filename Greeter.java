@@ -11,6 +11,7 @@ public class Greeter {
     this.name = name;
   }
 
+    new feature
   public String sayHello() {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
     return messages.getString("greeting") + ", " + name;
